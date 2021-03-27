@@ -1,0 +1,47 @@
+body {
+    width: 100%;
+    height: 100vh;
+    background-color: #EEEEEE;
+    font-family: 'Raleway', sans-serif !important;
+}
+
+
+.authentication-card {
+    border: none;
+    margin-top: -250px;
+
+    .card-header {
+        border: none;
+        background: #fff;
+    }
+
+    .card-body {
+        form {
+            .form-control {
+                width: 100%;
+            }
+
+            .form-label {
+                font-weight: bold;
+            }
+
+            button {
+                width: 100%;
+                margin-top: 10px;
+            }
+
+            .link {
+                display: block;
+                padding-top: 10px;
+
+                &:hover {
+                    text-decoration: none;
+                }
+            }
+
+            .error-text {
+                margin-left: 15px;
+            }
+        }
+    }
+}
